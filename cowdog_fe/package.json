@@ -1,0 +1,71 @@
+{
+  "name": "cowdog_fe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@vueform/slider": "^2.0.4",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.2",
+    "core-js": "^3.6.5",
+    "element-plus": "^1.0.2-beta.28",
+    "flipbook-vue": "^0.10.3",
+    "mitt": "^3.0.0",
+    "node-sass": "^4.14.0",
+    "openvidu-browser": "^2.19.0",
+    "sass-loader": "^7.3.1",
+    "sockjs-client": "^1.5.1",
+    "vue": "^3.0.0",
+    "vue-axios": "^3.2.4",
+    "vue-axios-cors": "^1.0.1",
+    "vue-doughnut-chart": "^0.3.0",
+    "vue-router": "^4.0.10",
+    "vue-sweetalert2": "^5.0.2",
+    "vueperslides": "^2.15.2",
+    "vuex": "^4.0.0-0",
+    "vuex-persistedstate": "^4.0.0",
+    "webstomp-client": "^1.2.6"
+  },
+  "devDependencies": {
+    "vuex-persistedstate": "^4.0.0",
+    "@iconify/vue": "^3.0.0",
+    "@iconify/vue2": "^1.0.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "^4.5.13",
+    "@vue/cli-plugin-vuex": "^4.5.13",
+    "@vue/cli-service": "^4.5.13",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-import": "^1.13.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "vue-cli-plugin-element-plus": "0.0.13"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "globals": {
+      "kakao": false
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
